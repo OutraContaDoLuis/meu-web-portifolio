@@ -1,0 +1,38 @@
+#div--main-topbar {
+    width: 100vw;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+
+    top: 0;
+    position: fixed;
+}
+
+.div--topbar {
+    display: flex;
+}
+
+.div--topbar p {
+    color: rgb(157, 43, 245);
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.div--topbar p:hover {
+    cursor: pointer;
+
+    color: rgb(218, 90, 218);
+}
+
+.div--spacing {
+    background-color: rgb(150, 51, 150);
+
+    height: 25%;
+    width: 2px;
+
+    align-self: center;
+}

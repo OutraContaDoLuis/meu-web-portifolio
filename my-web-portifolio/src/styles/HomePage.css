@@ -1,0 +1,64 @@
+.div--home-page {
+    width: 100vw;
+    height: 100vh;
+
+    align-content: center;
+}
+
+.div--home-page-body {
+    margin: 16px 32px;
+}
+
+.card {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(247, 80, 73);
+
+    border-radius: 0 0 32px 0;
+
+    width: 25%;
+}
+
+.btn-card {
+    background-color: transparent;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(94, 246, 255);
+
+    border-radius: 0 0 0 16px;
+
+    font-size: 20px;
+    color: rgb(94, 246, 255);
+
+    transition: 0.3s;
+}
+
+.btn-card:hover {
+    background-color: rgb(94, 246, 255);
+    border-color: rgb(94, 246, 255);
+
+    color: rgb(14, 14, 23);
+}
+
+#btn--contact-home-page {
+    font-family: 'Orbitron', sans-serif;
+
+    background-color: black;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    border-radius: 0 0 0 0;
+
+    font-size: 20px;
+    color: white;
+
+    transition: 0.3s;
+}
+
+#btn--contact-home-page:hover {
+    background-color: transparent;
+    color: black;
+}

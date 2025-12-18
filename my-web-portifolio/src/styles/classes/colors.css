@@ -1,0 +1,39 @@
+/* ---------------- BACKGROUND ---------------- */
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.bg-dark-blue {
+    background-color: rgb(14, 14, 23);
+}
+
+.bg-green {
+    background-color: rgb(29, 237, 131);
+}
+
+/* ---------------- COLOR ---------------- */
+
+.color-violet-purple {
+    color: rgb(157, 43, 245);
+}
+
+.color-cyan {
+    color: rgb(94, 246, 255);
+}
+
+.color-red {
+    color: rgb(247, 80, 73);
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white;
+}

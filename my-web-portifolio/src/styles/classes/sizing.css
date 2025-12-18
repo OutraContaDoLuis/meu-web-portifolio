@@ -1,0 +1,65 @@
+/* ---------------- FONT SIZE ---------------- */
+
+.fs-1 {
+    font-size: 16px;
+}
+
+.fs-2 {
+    font-size: 20px;
+}
+
+.fs-3 {
+    font-size: 24px;
+}
+
+.fs-4 {
+    font-size: 28px;
+}
+
+.fs-5 {
+    font-size: 32px;
+}
+
+/* ---------------- WIDTH ---------------- */
+
+.w-auto {
+    width: auto;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* ---------------- HEIGHT ---------------- */
+
+.h-auto {
+    height: auto;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-75 {
+    height: 75%;
+}
+
+.h-100 {
+    height: 100%;
+}

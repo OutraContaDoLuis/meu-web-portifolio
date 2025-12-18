@@ -22,14 +22,6 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -65,4 +57,52 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* MARGIN X */
+
+.mx-1 {
+  margin: 0 2px;
+}
+
+.mx-2 {
+  margin: 0 4px;
+}
+
+.mx-3 {
+  margin: 0 8px;
+}
+
+.mx-4 {
+  margin: 0 16px;
+}
+
+.mx-5 {
+  margin: 0 32px;
+}
+
+/* MARGIN Y */
+.my-1 {
+  margin: 2px 0;
+}
+
+.my-2 {
+  margin: 4px 0;
+}
+
+.my-3 {
+  margin: 8px 0;
+}
+
+.my-4 {
+  margin: 16px 0;
+}
+
+.my-5 {
+  margin: 32px 0;
 }
