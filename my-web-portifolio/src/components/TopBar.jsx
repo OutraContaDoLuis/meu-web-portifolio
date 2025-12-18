@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import "../styles/TopBar.css"
 
 function TopBar() {
@@ -7,13 +8,13 @@ function TopBar() {
                 <div class="div--topbar mx-4 my-3">
                 </div>
                 <div class="div--topbar mx-4 my-3">
-                    <p>Home</p>
+                    <Link class="link" to="/">Home</Link>
                     <div class="div--spacing mx-4"></div>
-                    <p>Projetos</p>
+                    <Link class="link" to="/projects">Projetos</Link>
                     <div class="div--spacing mx-4"></div>
-                    <p>Sobre mim</p>
+                    <Link class="link" to="/about-me">Sobre mim</Link>
                     <div class="div--spacing mx-4"></div>
-                    <p class="me-4">Contato</p>
+                    <Link class="link me-5" to="/contact">Contato</Link>
                 </div>
             </div>
         </>

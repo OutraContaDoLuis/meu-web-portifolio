@@ -25,14 +25,29 @@
 .div--topbar p:hover {
     cursor: pointer;
 
-    color: rgb(218, 90, 218);
+    color: rgb(218, 105, 218);
 }
 
 .div--spacing {
-    background-color: rgb(150, 51, 150);
+    background-color: rgb(157, 43, 245);
 
-    height: 25%;
+    height: 50%;
     width: 2px;
 
     align-self: center;
+}
+
+.link {
+    color: rgb(157, 43, 245);
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.link:hover {
+    cursor: pointer;
+
+    color: rgb(218, 105, 218);
 }
