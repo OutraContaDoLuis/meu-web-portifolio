@@ -16,6 +16,14 @@
     background-color: rgb(29, 237, 131);
 }
 
+.bg-cyan {
+    background-color: rgb(94, 246, 255);
+}
+
+.bg-red {
+    background-color: rgb(247, 80, 73);
+}
+
 /* ---------------- COLOR ---------------- */
 
 .color-violet-purple {
