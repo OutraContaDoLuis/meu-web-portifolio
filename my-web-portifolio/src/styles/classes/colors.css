@@ -24,7 +24,11 @@
     background-color: rgb(247, 80, 73);
 }
 
-/* ---------------- COLOR ---------------- */
+.bg-grey {
+    background-color: rgb(247, 80, 73);
+}
+
+/* ---------------- COLOR (TEXTS E ETC) ---------------- */
 
 .color-violet-purple {
     color: rgb(157, 43, 245);

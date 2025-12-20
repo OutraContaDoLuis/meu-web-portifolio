@@ -4,17 +4,17 @@ import "../styles/TopBar.css"
 function TopBar() {
     return (
         <>
-            <div id="div--main-topbar" class="bg-transparent ft-orbitron">
-                <div class="div--topbar mx-4 my-3">
+            <div id="div--main-topbar" className="bg-transparent ft-orbitron">
+                <div className="div--topbar mx-4 my-3">
                 </div>
-                <div class="div--topbar mx-4 my-3">
-                    <Link class="link" to="/">Home</Link>
-                    <div class="div--spacing mx-4"></div>
-                    <Link class="link" to="/projects">Projetos</Link>
-                    <div class="div--spacing mx-4"></div>
-                    <Link class="link" to="/about-me">Sobre mim</Link>
-                    <div class="div--spacing mx-4"></div>
-                    <Link class="link me-5" to="/contact">Contato</Link>
+                <div className="div--topbar mx-4 my-3">
+                    <Link className="link" to="/">Home</Link>
+                    <div className="div--spacing mx-4"></div>
+                    <Link className="link" to="/projects">Projetos</Link>
+                    <div className="div--spacing mx-4"></div>
+                    <Link className="link" to="/about-me">Sobre mim</Link>
+                    <div className="div--spacing mx-4"></div>
+                    <Link className="link me-5" to="/contact">Contato</Link>
                 </div>
             </div>
         </>

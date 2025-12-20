@@ -63,45 +63,45 @@ function AboutMePage() {
         <>
             <div>
                 <TopBar />
-                <div class="div--about-me-page bg-dark p-5">
-                    <h1 class="ft-orbitron color-cyan">Quem eu sou?</h1>
-                    <p class="fs-3 ft-rajdhani color-cyan">Me chamo Luis Henrique Campaner, tenho { state.age } anos e sou desenvolvedor Backend e Mobile. 
+                <div className="div--about-me-page bg-dark p-5">
+                    <h1 className="ft-orbitron color-cyan">Quem eu sou?</h1>
+                    <p className="fs-3 ft-rajdhani color-cyan">Me chamo Luis Henrique Campaner, tenho { state.age } anos e sou desenvolvedor Backend e Mobile. 
                         Atuo, na area de backend, usando Java com o FrameWork SpringBoot na construcao de APIs
                         Restful e MySQL para banco de dados, para conteinerizacao utilizo o docker compose. Na parte mobile, gosto de utilizar o Kotlin no 
                         desenvolvimento de apps em geral, junto com o framework do Jetpack compose. 
                     </p>
-                    <p class="fs-3 ft-rajdhani color-cyan">Atualmente, trabalho na area tem cerca de { state.timeWorking } ano(s), com trabalhos freelancers e ate mesmo
+                    <p className="fs-3 ft-rajdhani color-cyan">Atualmente, trabalho na area tem cerca de { state.timeWorking } ano(s), com trabalhos freelancers e ate mesmo
                         fixos para diversas empresas.
                     </p>
-                    <p class="fs-3 ft-rajdhani color-cyan">Caso queira saber mais detalhes do meu trabalho ou ate mesmo desenvolver um projeto junto comigo, entre em contato!</p>
+                    <p className="fs-3 ft-rajdhani color-cyan">Caso queira saber mais detalhes do meu trabalho ou ate mesmo desenvolver um projeto junto comigo, entre em contato!</p>
                 </div>
-                <div class="bg-dark p-5">
-                    <h1 class="ft-orbitron color-cyan">Tecnologias que eu utilizo nos meus projetos</h1>
-                    <div class="d-flex">
-                        <div class="card w-25 me-5 p-5">
-                            <p class="fs-4 ft-rajdhani color-cyan">Java</p>
-                            <p class="fs-3 ft-rajdhani color-cyan">Linguagem de programacao de alto nivel muito utilizada para a construcao de APIs Restful.</p>
+                <div className="bg-dark p-5">
+                    <h1 className="ft-orbitron color-cyan">Tecnologias que eu utilizo nos meus projetos</h1>
+                    <div className="d-flex">
+                        <div className="card w-25 me-5 p-5">
+                            <p className="fs-4 ft-rajdhani color-cyan">Java</p>
+                            <p className="fs-3 ft-rajdhani color-cyan">Linguagem de programacao de alto nivel muito utilizada para a construcao de APIs Restful.</p>
                         </div>
-                        <div class="card w-25 me-5 p-5">
-                            <p class="fs-4 ft-rajdhani color-cyan">Springboot</p>
+                        <div className="card w-25 me-5 p-5">
+                            <p className="fs-4 ft-rajdhani color-cyan">Springboot</p>
                         </div>
-                        <div class="card w-25 me-5 p-5">
-                            <p class="fs-4 ft-rajdhani color-cyan">MySQL</p>
+                        <div className="card w-25 me-5 p-5">
+                            <p className="fs-4 ft-rajdhani color-cyan">MySQL</p>
                         </div>
-                        <div class="card w-25 p-5">
-                            <p class="fs-4 ft-rajdhani color-cyan">Docker</p>
+                        <div className="card w-25 p-5">
+                            <p className="fs-4 ft-rajdhani color-cyan">Docker</p>
                         </div>
                     </div>
-                    <div class="d-flex mt-5">
-                        <div class="card w-25 me-5 p-5">
-                            <p class="fs-4 ft-rajdhani color-cyan">Kotlin</p>
+                    <div className="d-flex mt-5">
+                        <div className="card w-25 me-5 p-5">
+                            <p className="fs-4 ft-rajdhani color-cyan">Kotlin</p>
                         </div>
-                        <div class="card w-25 me-5 p-5">
-                            <p class="fs-4 ft-rajdhani color-cyan">Jetpack</p>
+                        <div className="card w-25 me-5 p-5">
+                            <p className="fs-4 ft-rajdhani color-cyan">Jetpack</p>
                         </div>
-                        <div class="w-25 me-5 p-5">
+                        <div className="w-25 me-5 p-5">
                         </div>
-                        <div class="w-25 p-5">
+                        <div className="w-25 p-5">
                         </div>
                     </div>                 
                 </div>

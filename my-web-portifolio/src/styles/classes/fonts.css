@@ -6,6 +6,18 @@
     font-family: 'Rajdhani', sans-serif;
 }
 
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
 .fw-medium {
     font-weight: 600;
 }

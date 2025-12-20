@@ -49,5 +49,7 @@
 .link:hover {
     cursor: pointer;
 
+    text-shadow: 4px 4px 4px rgb(157, 43, 245);
+
     color: rgb(218, 105, 218);
 }

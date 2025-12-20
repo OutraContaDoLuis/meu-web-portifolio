@@ -60,3 +60,7 @@
     background-color: transparent;
     color: black;
 }
+
+#h1-home-page {
+    text-shadow: 2px 2px 4px white;
+}
