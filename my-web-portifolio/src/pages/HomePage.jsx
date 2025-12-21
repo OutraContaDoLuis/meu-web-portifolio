@@ -45,7 +45,9 @@ function HomePage() {
                 <TopBar />
                 <div className="div--home-page bg-white">
                     <div className="div--home-page-body">
-                        <h1 className="ft-orbitron color-black">Programador Backend e Mobile</h1>
+                        <h1 className="ft-orbitron hero glitch layers" data-text="Programador Backend e Mobile">
+                            <span className="ft-orbitron color-black">Programador Backend e Mobile</span>
+                        </h1>
                         <p className="ft-orbitron fs-3 color-black">Ola, meu nome e Luis Henrique Campaner, tenho { state.age } anos, sou programador Backend (Java e SpringBoot) e 
                             programador Mobile (Kotlin) com cerca de 1 ano de atuacao nessas duas areas.</p>
                     </div>            
